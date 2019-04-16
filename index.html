@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Game2.css">
+	<title>Catch The Eggs</title>
+</head>
+<body>
+  <div id="container">
+	<div id="score_help">
+		Score :
+		<span id="score">0</span> | Life:
+		<span id="life">0</span> | Level:
+		<span id="level">0</span>
+		 | Use Mouse To Control
+	</div> 
+   <div id="branch"> </div>
+
+	<div id="hen1" class="hen"></div>
+	<div id="hen2" class="hen"></div>
+	<div id="hen3" class="hen"></div>
+	
+	<div id="egg1" class="egg" data-brokenEgg='1'></div>
+	<div id="egg2" class="egg" data-brokenEgg='2'></div>
+	<div id="egg3" class="egg" data-brokenEgg='3'></div>
+
+	<div id="brokenEgg1" class="brokenEgg"></div>
+	<div id="brokenEgg2" class="brokenEgg"></div>
+	<div id="brokenEgg3" class="brokenEgg"></div>
+
+	<div id="basket">
+		<span id="score_1"></span>
+	</div>
+
+	<div id="floor"> </div>
+
+	<button id="restart">RESTART</button>
+
+	<audio id="crack">
+		<source src="crack.mp3" type="mp3">
+	</audio>
+		
+	
+</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="collision.js"></script>
+	<script type="text/javascript" src="var.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="Game2.js"></script>
+	
+	
+	
+
+</body>
+</html>

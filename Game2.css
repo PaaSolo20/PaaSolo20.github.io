@@ -1,0 +1,143 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	
+}
+#container{
+	width:90%;
+	height:90%;
+	margin-left: 5%;
+	position:absolute;
+	border :2px;
+	border-color: red;
+	background-image: url("porch4.jpg");
+	overflow: hidden;
+
+
+}
+
+#score_help{
+	text-align: center;
+	font-size: 30px;
+	background-color: grey;
+}
+#branch{
+	position: absolute;
+	height: 3%;
+	width: 100%;
+	background-color: white;
+	top: 23%;
+}
+
+.hen{
+	position: absolute;
+	height: 15%;
+	width: 8%;
+	top: 10%;
+	background:  url("henT.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 100;
+
+}
+#hen1{
+	left: 20%;
+}
+#hen2{
+	left: 40%;
+}
+#hen3{
+	left: 60%;
+}
+
+.egg{
+	position: absolute;
+	top: 18%;
+	height: 5%;
+	width: 2%;
+	background-color: #fff;
+	border-radius: 50%;
+	z-index: 99;
+}
+#egg1{
+	left: 22%
+}
+#egg2{
+	left: 42%
+}
+#egg3{
+	left: 62%
+}
+
+.brokenEgg{
+	display:none;
+	position: absolute;
+	bottom:0px;
+	height: 7%;
+	width: 10%;
+	background: url("EggBroken2.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 11;
+	border-radius: 70%;
+
+}
+#brokenEgg1{
+
+left:18%;
+}
+#brokenEgg2{
+
+left:38%;
+}
+#brokenEgg3{
+
+left:58%;
+}
+
+#floor{
+
+	position: absolute;
+	height:10%;
+	width: 100%;
+	background-color:red;
+	bottom: 0px;
+	z-index: 10;
+	
+}
+
+#basket{
+	height: 100px;
+	width: 80px;
+	padding-left: 65px;
+	position: absolute;
+	bottom: 5px;
+	background :url("basket2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	z-index: 11;
+}
+
+#score_1{
+  position: absolute;
+  color: blue;
+  font-size: 30px;
+  top: 45%;
+  left: 30%;
+}
+#restart{
+	border:0;
+	position: absolute;
+	height: 10%;
+	width: 20%;
+	margin-left:40%;
+	border-radius: 20%;
+	background-color: blue;
+	color: white;
+	top: 40%;
+	font-size: 35px;
+	display: none;
+	cursor: pointer;
+}
